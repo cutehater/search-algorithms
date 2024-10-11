@@ -11,4 +11,4 @@ git clone https://github.com/cutehater/search-algorithms.git
 cd search-algorithms/lsm-tree
 go mod tidy
 cd test
-got test -bench=.
+go test -bench=.
